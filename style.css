@@ -1,0 +1,53 @@
+body {
+    /* width: 100%; */
+    max-width: 68rem;
+    margin:  auto;
+    font: 1.6rem/1.25 Arial, sans-serif;
+    /* color: #4d4d4d; */
+    /* background: rgb(211, 127, 127); */
+    /* margin: 2rem 0 4rem 0; */
+    /* position: relative; */
+    
+    background: url("https://picsum.photos/1920/1050?random=2");
+  }
+
+  h1 {
+      color: cornsilk;
+      /* padding-left: 300px; */
+  }
+  
+  .container {
+    padding: 35px;
+    margin:auto;
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+    box-sizing: border-box;
+    /* flex-direction: column; */
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgba(114, 56, 56, 0.712) 0%,
+      rgba(168, 24, 24, 0.959) 59%,
+      rgba(160, 24, 24, 0.9) 100%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+
+  .container .app {
+      width: 150px;
+      height: 36px;
+  }
+
+  .container .app:hover {
+    background-color: crimson;
+}
+
+.container .app::after {
+    background-color: rgb(10, 7, 7);
+}
+  .container input {
+    height: 30px;
+    padding-left: 50px;
+    font-size: medium;
+  }
